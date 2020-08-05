@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<!--
+**************************************************************************
+* Name: Yeh_CV_for_A3_print_v20200805a.html v20200805a
+* Copyright:
+* Author: HsiupoYeh
+* Version: v20200805a
+* Description:
+*		履歷表樣板 
+* 		修改自原作者，移除RWD部分，直接排版適合列印A3大小到PDF的網頁。
+*		僅測試使用Chrome瀏覽器的列印功能，選項中請將背景圖片形項打勾。
+*		Chrome瀏覽器的列印功能中可選取不同的功能印出PDF，若選「另存PDF」
+*		所存的檔案才有可框選的文字內容，其他方式可能僅有圖片。
+*		A3大小的頁面。
+**************************************************************************
+-->
+<html> 
+<head>
+    <title>履歷</title>    
+    <!-- meta 開始 -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,shrink-to-fit=no" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- meta 結束 -->
+	<!-- Font Awesome CSS 開始 -->
+	<link type="text/css" href="./css/font-awesome.min.css?v=4.7.0" rel="stylesheet" />
+	<!-- Font Awesome CSS 結束 -->
+	<!-- 自訂 CSS 開始 -->
+	<style>
+	*,
+	*::before,
+	*::after
+	{
+		box-sizing:border-box;
+	}
+	body
+	{
+	    font-family:"微軟正黑體","Microsoft JhengHei";
+		margin:0;
+		line-height:1.5;
+	}
+	.h2-add-horizontal-line
+	{
+		position:relative;
+		padding-bottom:1rem;
+		margin-bottom:1rem;
+	}
+	.h2-add-horizontal-line:after
+	{
+		content:"";
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		height:1.5px;
+		background:#8d9aad;
+	}
+	.add-timeline
+	{
+		padding-left:2rem;
+		position:relative;
+	}
+	.add-timeline:before 
+	{
+		content:"";
+		display:inline-block;
+		width:3px;
+		height:100%;
+		background:#aab4c3;
+		left:6px;
+		top:4px;
+		position:absolute;
+	}
+	.add-timeline-circle
+	{
+		position:relative;
+	}
+	.add-timeline-circle:before
+	{
+		content:"";
+		display:inline-block;
+		position:absolute;
+		left:-32px;
+		top:3px;
+		width:15px;
+		height:15px;
+		border:4px solid #58677c;
+		background:white;
+		border-radius:50%;
+	}	
+	@media print 
+	{
+		@page 
+		{
+			size:a3;
+		}
+		footer
+		{
+			display:none;
+		}
+	}
+	</style>
+	<!-- 自訂 CSS 結束 -->
+</head>
+<body>
+    <article style="text-align:center;">
+	    <div style="text-align:left;margin-left:auto;margin-right:auto;background-color:#fff;">
+		    <header style="background:#434E5E;color:rgba(255,255,255,0.9);height:220px;padding-top:0;">
+			    <div style="display:flex;align-items:flex-start;flex-direction:row;">
+				    <img style="width:220px;margin-left:auto;" src="images/profile.jpg">
+				    <div style="flex:1;padding:1.5rem;display:flex;flex-direction:row;margin-left:0;">
+						<!-- 主要個人資訊 開始-->
+					    <div>
+						    <h1 style="font-size:2.25rem;font-weight:900;color:#fff;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+								葉秀柏(HsiupoYeh)
+							</h1>
+						    <div style="font-size:1.5rem;margin-bottom:1rem">
+								地球物理學家/資深軟體工程師
+							</div>
+						    <ul style="padding-left:0;list-style:none;margin-top:0;margin-bottom:1rem;">
+							    <li style="margin-bottom:0.5rem">
+									<a href="#" style="text-decoration:none;color:rgba(255,255,255,0.6);">
+										<i class="fa fa-envelope" style="margin-right:0.5rem;"></i>
+										<span style="font-size:1rem;">
+											marskinglovesun@hotmail.com
+										</span>
+									</a>
+								</li>
+							    <li>
+									<a href="#" style="text-decoration:none;color:rgba(255,255,255,0.6);">
+										<i class="fa fa-mobile" style="margin-right:0.5rem;font-size:1.8rem;    margin-bottom: 0.3rem;vertical-align: middle;"></i>
+										<span style="font-size:1rem;">
+											09********
+										</span>
+									</a>
+								</li>
+						    </ul>
+					    </div>
+						<!-- 主要個人資訊 結束-->
+						<!-- 次要個人資訊 開始-->
+					    <div style="margin-top:0.5rem;margin-left:auto;">
+						    <ul style="font-size:0.875rem;list-style:none;margin-top:0;margin-bottom:1rem;padding-left:0px;">
+				                <li style="margin-bottom:1rem;">
+									<a href="#" style="text-decoration:none;color:rgba(255,255,255,0.6);">
+										<span style="font-size:1rem;display:inline-block;width:24px;height:24px;border-radius:0.125rem;background:white;color:#434E5E;text-align:center;margin-right:0.5rem;">
+											<i class="fa fa-facebook-official fa-lg"></i>
+										</span>
+										<span style="font-size:1rem;">
+											facebook.com/mtyehtw
+										</span>
+									</a>
+								</li>
+				                <li style="margin-bottom:1rem;">
+									<a href="#" style="text-decoration:none;color:rgba(255,255,255,0.6);">
+										<span style="font-size:1rem;display:inline-block;width:24px;height:24px;border-radius:0.125rem;background:white;color:#434E5E;text-align:center;margin-right:0.5rem;">
+											<i class="fa fa-github fa-lg"></i>
+										</span>
+										<span style="font-size:1rem;">
+											github.com/HsiupoYeh
+										</span>
+									</a>
+								</li>
+				                <li style="margin-bottom:1rem;">
+									<a href="#" style="text-decoration:none;color:rgba(255,255,255,0.6);">
+										<span style="font-size:1rem;display:inline-block;width:24px;height:24px;border-radius:0.125rem;background:white;color:#434E5E;text-align:center;margin-right:0.5rem;">
+											<i class="fa fa-youtube fa-lg"></i>
+										</span>
+										<span style="font-size:1rem;">
+											youtube.com/war3chen5
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" style="text-decoration:none;color:rgba(255,255,255,0.6);">
+										<span style="font-size:1rem;display:inline-block;width:24px;height:24px;border-radius:0.125rem;background:white;color:#434E5E;text-align:center;margin-right:0.5rem;">
+											<i class="fa fa-home fa-lg"></i>
+										</span>
+										<span style="font-size:1rem;">
+											hsiupoyeh.github.io
+										</span>
+									</a>
+								</li>				                
+						    </ul>
+					    </div>
+						<!-- 次要個人資訊 結束-->						
+				    </div>
+			    </div>
+		    </header>
+		    <div style="padding:3rem;">
+				<!-- 概述區塊 開始-->
+			    <section style="margin-bottom:3rem;">
+				    <h2 class="h2-add-horizontal-line" style="font-size:1.25rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+						概述
+					</h2>
+				    <div style="color:#58677c;">
+					    <p style="margin-top:0;margin-bottom:1rem;">
+							本人致力於地球物理探勘設備開發，依照學生時期所學物理方法原理，自學軟體技術，並於科技業學習完整的硬體、韌體、軟體的整合，開發專屬適合科學研究的儀器設備。2019年起整合物聯網技術，提供大數據與智慧自動化處理，使探勘方法應用於監測系統，快速累積大量資料進行統計歸納，期望應用在災害預防與評估上。地球物理探勘方法中，本人專精於電與電磁測勘技術，因此設計的儀器主要使用在大地電磁法、直流電阻法、自然電位法等經典方法，並且透徹了解探勘原理進而自行撰寫資料處理分析程式。2020年起，投入雲端大數據設計開發，建置台灣地電阻影像觀測網、台灣地電場觀測網。
+						</p>
+				    </div>
+			    </section>
+				<!-- 概述區塊 結束-->
+				<!-- 主要內容區塊 開始-->
+			    <div style="display:flex;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;">
+				    <div style="flex: 0 0 75%;max-width:75%;position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;">
+						<!-- 工作經驗時間軸 開始-->
+					    <section style="margin-bottom:3rem">
+						    <h2 class="h2-add-horizontal-line" style="font-size:1.25rem;color:#434E5E;font-weight:700;margin-top:0;line-height:1.2;">
+								工作經驗
+							</h2>
+						    <div style="color:#58677c;">
+							    <div class="add-timeline">
+									<!-- 一份工作經驗 開始-->
+								    <article class="add-timeline-circle" style="padding-bottom:3rem;">										
+									    <div style="margin-bottom:0.5rem">
+											<!-- 職稱與公司名稱 開始-->
+										    <div style="display:flex;flex-direction:row;">
+										        <h3 style="font-size:1.125rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.25rem;line-height:1.2;">
+													研究助理/軟體工程師/全端網頁設計師
+												</h3>
+										        <div style="margin-left:auto;color:#58677c;font-size:0.875rem;font-weight:500;">
+													CGRG in NCU
+												</div>
+										    </div>
+											<!-- 職稱與公司名稱 結束-->
+											<!-- 工作時間 開始-->
+										    <div style="font-size:0.875rem;color:#aab4c3;">
+												2019 Dec. - 現在
+											</div>
+											<!-- 工作時間 結束-->
+									    </div>									
+									    <div>
+											<!-- 工作簡介 開始-->
+										    <p style="margin-top:0;margin-bottom:1rem;">
+												國立中央大學，地球科學學系，計算地球物理研究室(Computational Geophysical Research Group, CGRG)擁有豐富地球物理探勘實務經驗與成果。順應時代進步，研究室主持人企圖將成果整合至雲端系統，進一步進行大數據分析。需要應用雲端系統技術且具備地球科學專業分析能力。
+											</p>
+										    <!-- 工作簡介 結束-->
+											<!-- 成果 開始-->
+											<h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												成果:
+											</h4>
+										    <ul style="margin-top:0;margin-bottom:1rem;">
+											    <li>
+													計算地球物理研究室形象網頁建置
+												</li>
+											    <li>
+													地電阻影像監測系統儀器開發
+												</li>
+											    <li>
+													自動化地電阻影像監測分析軟體開發
+												</li>
+												<li>
+													台灣地電阻影像觀測網(Taiwan Electrical Resistivity Tomography Network, TWERTN)開發 
+												</li>
+												<li>
+													執行109年度工業技術研究院「地熱儲集層電阻反演可靠度研究」計畫
+												</li>
+												<li>
+													岩石電阻率與含水率變化分析實驗
+												</li>
+												<li>
+													中正大學大地電磁法教學課程支援 
+												</li>
+												<li>
+													執行109年度暨南大學「蘭台大規模崩塌潛勢示範區觀測科技整合與分析」計畫 
+												</li>
+												
+												<li>
+													執行109年度經濟部中央地質調查所「火山災害潛勢評估與觀測技術強化計畫」計畫
+												</li>
+												<li>
+													台灣地電場觀測網((Taiwan Geo-Electrical Field Network,TWGEFN)開發 
+												</li>	
+												<li>
+													台灣地電場觀測網-新北市磺嘴山站(HUZS)建站規劃及驗收 
+												</li>												
+										    </ul>
+											<!-- 成果 結束-->
+											<!-- 使用技術或工具 開始-->
+											<h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												使用技術或工具:
+											</h4>
+										    <ul style="padding-left:0;list-style:none;margin-top:0;margin-bottom:1rem;">											    
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														MATLAB
+													</span>
+												</li>											    											
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Windows C/C++
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														HTML
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														JavaScript
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														JQuery
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														PHP
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														MySQL
+													</span>
+												</li>	
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Synology NAS
+													</span>
+												</li>												
+										    </ul>
+											<!-- 使用技術或工具 結束-->
+									    </div>
+								    </article>
+									<!-- 一份工作經驗 結束-->
+									<!-- 一份工作經驗 開始-->
+								    <article class="add-timeline-circle" style="padding-bottom:3rem;">										
+									    <div style="margin-bottom:0.5rem">
+											<!-- 職稱與公司名稱 開始-->
+										    <div style="display:flex;flex-direction:row;">
+										        <h3 style="font-size:1.125rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.25rem;line-height:1.2;">
+													地球物理學家/軟體工程師
+												</h3>
+										        <div style="margin-left:auto;color:#58677c;font-size:0.875rem;font-weight:500;">
+													3JTech
+												</div>
+										    </div>
+											<!-- 職稱與公司名稱 結束-->
+											<!-- 工作時間 開始-->
+										    <div style="font-size:0.875rem;color:#aab4c3;">
+												2012 Mar. - 2019 Dec.
+											</div>
+											<!-- 工作時間 結束-->
+									    </div>									
+									    <div>
+											<!-- 工作簡介 開始-->
+										    <p style="margin-top:0;margin-bottom:1rem;">
+												三捷科技股份有限公司(3JTech)是以資訊科技產品為主力，生產路由器、網路攝影機等設備，並承接OEM/ODM業務，同時公司也投入地球物理探勘的研發。因此除了科學相關軟硬體的開發外，也執行公司其他非地球物理專案產品的開發計劃。
+											</p>
+										    <!-- 工作簡介 結束-->
+											<!-- 成果 開始-->
+											<h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												成果:
+											</h4>
+										    <ul style="margin-top:0;margin-bottom:1rem;">
+											    <li>
+													暫態電磁法逆推軟體移植
+												</li>
+											    <li>
+													變壓器檢測工具
+												</li>
+											    <li>
+													藍芽個人健康管理系統(血壓計、氣喘機、管理系統)
+												</li>
+												<li>
+													直流電組法量測儀器
+												</li>
+												<li>
+													客製化舊儀器資料擷取並上傳至雲端
+												</li>
+											    <li>
+													大地電磁法量測儀器(MTSeis)，包含:紀錄器、電場感應器、磁場感應器
+												</li>
+												<li>
+													磁場感應器系統響應量測
+												</li>
+												<li>
+													大地電磁法資料處理程式設計
+												</li>
+												<li>
+													大地電磁法資料三維逆推軟體(ModEM)使用
+												</li>
+												<li>
+													時間序列即時監控程式設計
+												</li>
+												<li>
+													訊號分析程式設計
+												</li>
+												<li>
+													NBIoT伺服器架設
+												</li>
+												<li>
+													NBIoT前端網頁設計
+												</li>
+												<li>
+													老人關懷系統伺服器架設
+												</li>
+												<li>
+													老人關懷系統紅外線感應器韌體設計
+												</li>
+												<li>
+													老人關懷系統前端網頁設計
+												</li>
+												<li>
+													ESP8266簡易網頁伺服器程式設計
+												</li>
+												<li>
+													專案計畫主持人-地球物理物聯網監測系統(IoGT)
+												</li>
+												<li>
+													IoGT伺服器架設
+												</li>
+												<li>
+													IoGT前端網頁設計
+												</li>
+												<li>
+													IoGT後端網頁設計與資料庫設計
+												</li>
+												<li>
+													IoGT儀器韌體設計
+												</li>
+												<li>
+													IoGT硬體協助設計、整合與驗收
+												</li>
+												<li>
+													IoGT實際應用(自然電位法監測)與野外施測
+												</li>
+										    </ul>
+											<!-- 成果 結束-->
+											<!-- 使用技術或工具 開始-->
+											<h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												使用技術或工具:
+											</h4>
+										    <ul style="padding-left:0;list-style:none;margin-top:0;margin-bottom:1rem;">
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Fortran
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														MATLAB
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Linux C/C++
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Ralink SDK
+													</span>
+												</li>												
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Windows C/C++
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														HTML
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														JavaScript
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														JQuery
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														PHP
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														MySQL
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Python
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														ModEM
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Synology NAS
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Raspberry Pi
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														STM32
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														M487
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														ESP8266
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														OpenWRT
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Lua
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Luci
+													</span>
+												</li>
+										    </ul>
+											<!-- 使用技術或工具 結束-->
+									    </div>
+								    </article>
+									<!-- 一份工作經驗 結束-->
+									<!-- 一份工作經驗 開始-->						
+									<article class="add-timeline-circle" style="padding-bottom:3rem;">	
+										<div style="margin-bottom:0.5rem">
+											<!-- 職稱與公司名稱 開始-->
+										    <div style="display:flex;flex-direction:row;">
+										        <h3 style="font-size:1.125rem;color:#434E5E;font-weight:700;margin-bottom:0.25rem;margin-top:0;line-height:1.2;">
+													替代役
+												</h3>
+										        <div style="margin-left:auto;color:#58677c;font-size:0.875rem;font-weight:500;">
+													桃園市環境保護局
+												</div>
+										    </div>
+											<!-- 職稱與公司名稱 結束-->
+											<!-- 工作時間 開始-->
+										    <div style="font-size:0.875rem;color:#aab4c3;">
+												2011 Jan. - 2012 Jan.
+											</div>
+											<!-- 工作時間 結束-->
+									    </div>
+									    <div>
+										    <!-- 工作簡介 開始-->
+											<p style="margin-top:0;margin-bottom:1rem;">
+												協助環保局內各科員之相關勤務。庶務、文書、環境稽查、民眾案件申報、電話客服等。
+											</p>
+											<!-- 工作簡介 結束-->
+											<!-- 成果 開始-->
+											<h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												成果:
+											</h4>
+										    <ul style="margin-top:0;margin-bottom:1rem;">
+											    <li>
+													榮民照護活動
+												</li>
+											    <li>
+													暑期弱勢學童輔導活動
+												</li>
+											    <li>
+													自動化環境衛生檢驗統計工作
+												</li>
+											    <li>
+													民眾案件申請表格設計
+												</li>
+										    </ul>
+											<!-- 成果 結束-->
+											<!-- 使用技術或工具 開始-->
+										    <h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												使用技術或工具:
+											</h4>
+										    <ul style="padding-left:0;list-style:none;margin-top:0;margin-bottom:1rem;">
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Microsoft Office
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														AutoIt
+													</span>
+												</li>											    
+										    </ul>
+											<!-- 使用技術或工具 結束-->
+									    </div>
+								    </article>
+									<!-- 一份工作經驗 結束-->
+								</div>
+						    </div>
+					    </section>
+						<!-- 工作經驗時間軸 結束-->
+						<!-- 其他經驗時間軸 開始-->
+					    <section style="margin-bottom:3rem">
+							<h2 class="h2-add-horizontal-line" style="font-size:1.25rem;color:#434E5E;font-weight:700;margin-top:0;line-height:1.2;">
+								其他經驗
+							</h2>
+						    <div style="color:#58677c;">
+							    <div class="add-timeline">							    								    
+								    <!-- 一份工作經驗 開始-->
+								    <article class="add-timeline-circle" style="padding-bottom:3rem;">
+										<div style="margin-bottom:0.5rem">											
+											<!-- 工作時間 開始-->
+										    <div style="font-size:0.875rem;color:#aab4c3;">
+												2012 Mar. - 現在
+											</div>
+											<!-- 工作時間 結束-->
+									    </div>										
+									    <div>
+											<!-- 工作簡介 開始-->
+										    <p style="margin-top:0;margin-bottom:1rem;">
+												閒暇時寫了一些小作品磨練程式設計技巧。
+											</p>
+										    <!-- 工作簡介 結束-->
+										    <!-- 作品 開始-->
+											<h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												作品:
+											</h4>							
+										    <ul style="margin-top:0;margin-bottom:1rem;">
+												<li>
+													個人網頁
+												</li>
+											    <li>
+													靜態網頁產生器
+												</li>
+											    <li>
+													線上購物網站
+												</li>
+												<li>
+													購物清單產生器
+												</li>
+												<li>
+													日本購物計算機
+												</li>
+												<li>
+													Line機器人
+												</li>
+											    <li>
+													生病日記網站(紀錄個人蕁麻疹病情、飲食內容，供醫生診斷)
+												</li>
+												<li>
+													RPG Maker遊戲製作
+												</li>	
+												<li>
+													網路遊戲自動練功程式
+												</li>
+										    </ul>
+											<!-- 作品 結束-->
+											<!-- 使用技術或工具 開始-->
+										    <h4 style="font-size:1rem;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+												使用技術或工具:
+											</h4>
+										    <ul style="padding-left:0;list-style:none;margin-top:0;margin-bottom:1rem;">
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														MATLAB
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Windows C/C++
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														HTML
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														JavaScript
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														JQuery
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														PHP
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														MySQL
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Python
+													</span>
+												</li>
+												<li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Synology NAS
+													</span>
+												</li>
+											    <li style="display:inline-block;margin-right:0.5rem;">
+													<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+														Raspberry Pi
+													</span>
+												</li>												
+										    </ul>
+											<!-- 使用技術或工具 結束-->											
+									    </div>
+								    </article>
+									<!-- 一份工作經驗 結束-->									
+							    </div>
+						    </div>
+					    </section>
+						<!-- 其他經驗時間軸 結束-->
+				    </div>
+				    <div style="flex: 0 0 25%;max-width:25%;position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;">
+						<!-- 技術與工具能力值 開始-->
+					    <section style="margin-bottom:3rem;">
+						    <h2 class="h2-add-horizontal-line" style="font-size:1.25rem;position:relative;color:#434E5E;font-weight:700;padding-bottom:1rem;margin-top:0;line-height:1.2;">
+								技術與工具
+							</h2>
+						    <div style="color:#58677c;">
+								<!-- 一個技術與工具能力值項目 開始-->
+						        <div>
+							        <h4 style="font-size:1rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+										網站前端
+									</h4>
+							        <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">
+								        <li style="margin-bottom:0.5rem;">
+								            <div style="font-size:0.8125rem;color:#434E5E;">
+												HTML/CSS
+											</div>
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:60%;background-color:#434E5E;"></div>
+											</div>
+								        </li>								        
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												JavaScript
+											</div>
+								            <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:40%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div>
+								<!-- 一個技術與工具能力值項目 結束-->
+								<!-- 一個技術與工具能力值項目 開始-->
+						        <div>
+						            <h4 style="font-size:1rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+										網站後端
+									</h4>
+							        <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">								        
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												PHP
+											</div>	
+											<div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:80%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												WordPress
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:50%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												Joomla
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:85%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												Python
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:40%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												Lua
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:70%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div>
+								<!-- 一個技術與工具能力值項目 結束-->	
+								<!-- 一個技術與工具能力值項目 開始-->								
+								<div>
+									<h4 style="font-size:1rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+										Windows應用程式
+									</h4>						           
+							        <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">								        
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												C/C++
+											</div>
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:95%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												MATLAB
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:100%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												AutoIt
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:85%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												Fortran
+											</div>
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:40%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												不同語言混和編程
+											</div>								            
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:70%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div>
+								<!-- 一個技術與工具能力值項目 結束-->
+								<!-- 一個技術與工具能力值項目 開始-->
+								<div>
+									<h4 style="font-size:1rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+										嵌入式系統(韌體)
+									</h4>						            
+							        <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">								        
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												C/C++
+											</div>
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:80%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+								        <li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												Python
+											</div>
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:40%;background-color:#434E5E;"></div>
+											</div>
+								        </li>										
+										<li style="margin-bottom:0.5rem;">
+											<div style="font-size:0.8125rem;color:#434E5E;">
+												Bluetooth
+											</div>
+									        <div style="height:0.6rem;border-radius:2px;display:flex;overflow:hidden;font-size:0.75rem;background-color:#e9ecef;" >
+											    <div style="width:20%;background-color:#434E5E;"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div>
+								<!-- 一個技術與工具能力值項目 結束-->
+								<!-- 開發經驗清單 開始-->
+								<div>
+									<h4 style="font-size:1rem;color:#434E5E;font-weight:700;margin-top:0;margin-bottom:0.5rem;line-height:1.2;">
+										韌體開發經驗
+									</h4>
+									<!-- 清單 開始-->
+						            <ul style="padding-left:0;list-style:none;margin-top:0;margin-bottom:1rem;">	
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												Raspberry Pi
+											</span>
+										</li>
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												ESP8266
+											</span>
+										</li>
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												STM32
+											</span>
+										</li>
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												M487
+											</span>
+										</li>
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												RT5350
+											</span>
+										</li>
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												MT7620
+											</span>
+										</li>
+										<li style="display:inline-block;margin-right:0.5rem;">
+											<span style="color:#fff;background-color:#434E5E;display:inline-block;padding:0.25em 0.4em;font-size:75%;font-weight:700;line-height:1;text-align:center;white-space:nowrap;vertical-align:baseline;border-radius:10rem;padding-right:0.6em;padding-left:0.6em;">
+												EC25
+											</span>
+										</li>					            
+						            </ul>
+									<!-- 清單 結束-->
+						        </div>
+								<!-- 開發經驗清單 結束-->
+						    </div>
+					    </section>
+						<!-- 技術與工具能力值 結束-->
+						<!-- 學歷 開始-->
+					    <section style="margin-bottom:3rem;">
+						    <h2 class="h2-add-horizontal-line" style="font-size:1.25rem;position:relative;color:#434E5E;font-weight:700;padding-bottom:1rem;margin-top:0;line-height:1.2;">
+								學歷
+							</h2>							
+						    <div style="color:#58677c;">
+							    <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">
+									<!-- 一個學歷項目 開始-->	
+								    <li style="margin-bottom:0.5rem;">
+								        <div style="color:#434E5E;font-weight:700;">
+											地球物理研究所碩士
+										</div>
+								        <div style="font-size:0.875rem;">
+											國立中央大學
+										</div>
+								        <div style="color:#aab4c3;font-size:0.875rem;">
+											2008 - 2010
+										</div>
+								    </li>
+									<!-- 一個學歷項目 結束-->
+									<!-- 一個學歷項目 開始-->	
+								    <li style="margin-bottom:0.5rem;">
+										<div style="color:#434E5E;font-weight:700;">
+											地球科學系學士
+										</div>
+								        <div style="font-size:0.875rem;">
+											國立中央大學
+										</div>
+								        <div style="color:#aab4c3;font-size:0.875rem;">
+											2003 - 2008
+										</div>
+								    </li>
+									<!-- 一個學歷項目 結束-->
+							    </ul>
+						    </div>
+					    </section>
+						<!-- 學歷 結束-->
+						<!-- 著作 開始-->
+					    <section style="margin-bottom:3rem;">
+							<h2 class="h2-add-horizontal-line" style="font-size:1.25rem;position:relative;color:#434E5E;font-weight:700;padding-bottom:1rem;margin-top:0;line-height:1.2;">
+								著作
+							</h2>	
+						    <div style="color:#58677c;">									
+							    <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">
+									<!-- 一個著作項目 開始-->	
+									<li style="margin-bottom:0.5rem;">
+										<div style="color:#434E5E;font-weight:700;">
+											清水地熱區大地電磁法的探測深度
+										</div>
+								        <div style="font-size:0.875rem;">
+											西太平洋地質科學，葉秀柏等人，2013
+										</div>
+								    </li>
+									<!-- 一個著作項目 結束-->
+									<!-- 一個著作項目 開始-->	
+									<li style="margin-bottom:0.5rem;">
+										<div style="color:#434E5E;font-weight:700;">
+											應用大地電磁法研究台灣地區之電性構造
+										</div>
+								        <div style="font-size:0.875rem;">
+											國立中央大學，碩士論文，2010
+										</div>
+								    </li>
+									<!-- 一個著作項目 結束-->
+							    </ul>
+						    </div>
+					    </section>
+						<!-- 著作 結束-->
+						<!-- 語言 開始-->
+					    <section style="margin-bottom:3rem;">
+						    <h2 class="h2-add-horizontal-line" style="font-size:1.25rem;position:relative;color:#434E5E;font-weight:700;padding-bottom:1rem;margin-top:0;line-height:1.2;">
+								語言
+							</h2>
+						    <div style="color:#58677c;">
+							    <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">
+									<!-- 一個語言項目 開始-->
+									<li style="margin-bottom:0.5rem;">
+										<span style="color:#434E5E;font-weight:700;">
+											中文
+										</span> 
+										<small style="color:#6c757d;font-weight:400;">
+											(母語)
+										</small>
+									</li>
+									<!-- 一個語言項目 結束-->
+									<!-- 一個語言項目 開始-->
+								    <li style="margin-bottom:0.5rem;">
+										<span style="color:#434E5E;font-weight:700;">
+											英文
+										</span>
+										<small style="color:#6c757d;font-weight:400;">
+											(精通)
+										</small>
+									</li>
+									<!-- 一個語言項目 結束-->
+							    </ul>
+						    </div>
+					    </section>
+						<!-- 語言 結束-->
+						<!-- 興趣 開始-->
+					    <section style="margin-bottom:3rem;">
+							<h2 class="h2-add-horizontal-line" style="font-size:1.25rem;position:relative;color:#434E5E;font-weight:700;padding-bottom:1rem;margin-top:0;line-height:1.2;">
+								興趣
+							</h2>
+						    <div style="color:#58677c;">
+							    <ul style="margin-top:0;margin-bottom:1.5rem;padding-left:0;list-style:none;">									
+									<!-- 一個興趣項目 開始-->
+									<li style="margin-bottom:0.5rem;">
+										閱讀
+									</li>
+									<!-- 一個興趣項目 結束-->
+									<!-- 一個興趣項目 開始-->
+									<li style="margin-bottom:0.5rem;">
+										旅遊
+									</li>
+									<!-- 一個興趣項目 結束-->
+									<!-- 一個興趣項目 開始-->
+									<li style="margin-bottom:0.5rem;">
+										美食
+									</li>
+									<!-- 一個興趣項目 結束-->
+							    </ul>
+						    </div>
+					    </section>
+						<!-- 興趣 結束-->
+				    </div>
+			    </div>
+				<!-- 主要內容區塊 結束-->
+		    </div>
+	    </div>
+    </article>      
+	<footer style="text-align:center;padding-bottom:3rem;padding-top:0.5rem;">
+		<!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+		<small style="font-size:80%;font-weight:400;">
+			Designed with <i class="fa fa-heart" style="color:#fb866a;"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers
+		</small>
+	</footer>
+</body>
+</html> 
